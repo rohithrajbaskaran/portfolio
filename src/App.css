@@ -1,0 +1,145 @@
+
+.logo{
+  height: 30px;
+  width: 50px;
+}
+
+.image-custom{
+  width: 300px;
+}
+
+
+.icons-custom{
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.hover:hover{
+  cursor: pointer;
+}
+
+about{
+  margin-top: 50px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 20px;
+}
+
+.transition-content {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 1s ease, transform 0.5s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+.transition-content.active {
+  opacity: 1;
+  transform: translateY(0);
+  height: auto; /* Expands to fit content */
+}
+
+.about-me-custom{
+  border-radius: 20px;
+}
+
+.skills-nav1{
+  display: none;
+}
+
+.skills-nav2{
+  display: block;
+  margin-right: 15px;
+}
+
+.custom-div-1{
+  padding-top: 50px !important;
+}
+
+.custom-div-2{
+  padding-top: 60px !important;
+}
+
+.custom-div-3{
+  padding-top: 80px !important;
+}
+.custom-div-4{
+  padding-top: 80px !important;
+}
+
+.projects-image{
+  max-width: 500px;
+  height: 100px;
+}
+
+.navbar-custom-width {
+  width: 100%;
+  padding-right: 50px;
+}
+
+hr {
+  border: 1px solid black; /* or any visible color */
+  height: 2px; /* Define the thickness */
+  width: 100%; /* Or any appropriate width */
+}
+
+.experience-button{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 992px) {
+  .navbar-custom-width {
+    width: 1000px;
+  }
+
+  .projects-custom-width{
+    width: 1000px;
+  }
+
+  .icons-custom{
+    margin-right: 20px;
+  }
+
+  .custom-div-1{
+    padding-top: 100px !important;
+    width:1000px;
+  }
+  .custom-div-2{
+    padding-top: 125px !important;
+  }
+
+  .custom-div-3{
+    padding-top: 80px !important;
+  } 
+
+  .custom-div-4{
+    padding-top: 60px !important;
+  }
+}
+
+@media (min-width: 720px) {
+  .image-custom{
+    width: 400px;
+  }
+
+  .skills-nav2{
+    display: none !important;
+  }
+
+  .skills-nav1{
+    display: block;
+  }
+
+  .projects-image{
+    max-width: 200px;
+    height: 100px;
+  }
+}
+@media (max-width: 550px) {
+  .card{
+    width: 100%;
+  }
+}
