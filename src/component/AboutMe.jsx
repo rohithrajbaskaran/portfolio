@@ -14,7 +14,6 @@ import RustLogo from '../assets/rust_logo.png'
 import JavaLogo from '../assets/java_logo.png'
 import CLogo from '../assets/c_logo.png'
 import HaskallLogo from '../assets/haskall_logo.png'
-import FireBaseLogo from '../assets/firebase_logo.png'
 import JWTlLogo from '../assets/jwt_logo.png'
 import OAuthLogo from '../assets/oauth_logo.png'
 import MatPlotLibLogo from '../assets/matplotlib_logo.png'
@@ -39,7 +38,7 @@ const AboutMe = () => {
     const [activeAbout, setActiveAbout] = useState('Experience')
 
     const frontendLogos = [HtmlLogo, CssLogo, JsLogo, ReactLogo, ReduxLogo, BootstrapLogo]
-    const backendLogos = [NodeLogo, ExpressLogo, PostgresLogo, MangoLogo, OAuthLogo, JWTlLogo, FireBaseLogo]
+    const backendLogos = [NodeLogo, ExpressLogo, PostgresLogo, MangoLogo, OAuthLogo, JWTlLogo]
     const otherLanguages = [PythonLogo, HaskallLogo, CLogo, JavaLogo, RustLogo]
     const otherFrameWorks = [GitLogo, GitHubLogo, LinuxLogo, FigmaLogo, MatPlotLibLogo]
 
