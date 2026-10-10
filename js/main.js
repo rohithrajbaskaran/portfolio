@@ -195,7 +195,7 @@
     { label: "Skills", hint: "Section", href: base + "index.html#skills" },
     { label: "Contact", hint: "Section", href: base + "index.html#contact" },
     { label: "Read: What GRC Actually Is", hint: "Blog", href: base + "blog/grc-beyond-checkbox-compliance.html" },
-    { label: "Download résumé", hint: "PDF", href: base + "assets/Rohithraj_Baskaran_Resume.pdf", ext: true },
+    { label: "Download resume", hint: "PDF", href: base + "assets/Rohithraj_Baskaran_Resume.pdf", ext: true },
     { label: "GitHub", hint: "External", href: "https://github.com/rohithrajbaskaran", ext: true },
     { label: "LinkedIn", hint: "External", href: "https://www.linkedin.com/in/rohithraj-baskaran-89029820b/", ext: true },
     { label: "Copy email address", hint: "Action", action: function () { copyText(EMAIL, "Email copied"); } },
