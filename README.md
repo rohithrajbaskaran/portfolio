@@ -22,6 +22,13 @@ An interactive 3D version of the portfolio: drive a car around an island where e
 - **Deep links:** `drive/#itgc`, `drive/#plutus`, `drive/#contact`, etc. open the game parked at that landmark.
 - **Content** lives in `drive/content.js`; the world and game logic are in `drive/game.js`.
 
+## Quest mode (`quest/`)
+
+A side-scrolling platformer version. Pick one of four original characters (Bo, Kai, Zap, Princess Blossom), each with their own ability, then hit **?** blocks and dive down pipes to open each section. Stomp bugs, break skill bricks, collect the impact-stat stars, and reach the flag to finish at the castle. All art is drawn in code; content is shared with `drive/content.js`.
+
+- **Controls:** ← → move, Space jump, ↓ enter pipes, Shift ability, L level select. Phones get an on-screen pad.
+- **Deep links:** `quest/#itgc`, `quest/#skills`, `quest/#contact`, etc. warp straight to a section.
+
 ## Run locally
 
 ```bash
