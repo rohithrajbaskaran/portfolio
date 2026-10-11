@@ -13,6 +13,15 @@ js/main.js                                  Interactions (reveal, counters, ⌘K
 assets/                                     Résumé PDF and favicon
 ```
 
+## Drive mode (`drive/`)
+
+An interactive 3D version of the portfolio: drive a car around an island where every landmark is a section (experience, projects, writing, skills, contact). Built with Three.js (loaded from a CDN), still no build step.
+
+- **Controls:** WASD / arrow keys, Space to drift, Shift to boost, M for the map, N for day/night, R to respawn. Phones get a joystick and boost button.
+- **Extras:** collectible impact stats on the ring road, a wall of skill crates to smash, achievements, minimap, optional engine sound.
+- **Deep links:** `drive/#itgc`, `drive/#plutus`, `drive/#contact`, etc. open the game parked at that landmark.
+- **Content** lives in `drive/content.js`; the world and game logic are in `drive/game.js`.
+
 ## Run locally
 
 ```bash
